@@ -1,9 +1,7 @@
 #!/bin/bash
 
 sudo pacman -S --noconfirm --needed \
-  1password-beta \
-  1password-cli \
-  asdcontrol-git \
+  bitwarden-cli \
   alacritty \
   avahi \
   bash-completion \
@@ -52,7 +50,6 @@ sudo pacman -S --noconfirm --needed \
   inetutils \
   iwd \
   jq \
-  kdenlive \
   kvantum-qt5 \
   lazydocker \
   lazygit \
@@ -91,7 +88,6 @@ sudo pacman -S --noconfirm --needed \
   qt5-wayland \
   ripgrep \
   satty \
-  signal-desktop \
   slurp \
   spotify \
   starship \
@@ -104,7 +100,6 @@ sudo pacman -S --noconfirm --needed \
   ttf-cascadia-mono-nerd \
   ttf-ia-writer \
   ttf-jetbrains-mono-nerd \
-  typora \
   tzupdate \
   ufw \
   ufw-docker \
@@ -123,7 +118,6 @@ sudo pacman -S --noconfirm --needed \
   xdg-desktop-portal-gtk \
   xdg-desktop-portal-hyprland \
   xmlstarlet \
-  xournalpp \
   yaru-icon-theme \
   yay \
   zoxide
