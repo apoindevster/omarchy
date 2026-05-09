@@ -33,6 +33,9 @@ if command -v zoxide &> /dev/null; then
   }
 fi
 
+# EDITOR
+alias vim='nvim'
+
 open() (
   xdg-open "$@" >/dev/null 2>&1 &
 )
